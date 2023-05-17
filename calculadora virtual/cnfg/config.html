@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background-color: #686087;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .configs{
+            
+            background-color: #3E3758;
+            width: 300px;
+            height: 381px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="configs" id="config">
+            <div class="cabacalho"></div>
+                <button class="voltar" onclick="back()">
+                    <svg class="seta" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z" />
+                    </svg>
+             </button>
+             <h1>Configurações</h1>
+        </div>
+        <div class="spec">
+            <div class="modos">
+                <h2>Temas</h2>
+                    <input class="switch" id="theme" name="bw" type="checkbox">
+            </div>
+            <div class="som">
+                    <h2>Som</h2>
+                    <input class="switch" id="sound" name="sound" type="checkbox">
+            </div>
+            
+        </div>
+         <div class="suporte">
+                <button class="suporte-button" onclick="support()">
+                    <h2>Suporte</h2>
+                </button>
+        
+            </div>
+
+    </div>
+    
+    
+</body>
+</html>

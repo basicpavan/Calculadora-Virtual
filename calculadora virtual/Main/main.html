@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!DOCTYPE html>
+    
+</head>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        .fundo{
+            background-color: #686087;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+        
+        .main{
+            display: flex;
+            flex-direction: column;
+            top: 20vh;
+            left: 37%;
+            position: absolute;
+            background-color: #3E3758;
+            width: 300px;
+            height: 381px;
+            border-radius: 30px;
+        }
+        .config{
+            height: 8vh;
+            width: 8vh;
+        }
+        .botao{
+            box-sizing: border-box;
+            color: #B3ADCB;
+            height: 9vh;
+            width: 60px;
+            font-size: x-large;
+            background: #3E3758;
+            border: 3px solid #B3ADCB;
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 40px;
+            box-shadow: 4px 4px 0px #221E1E;
+            border-radius: 10px;
+        }
+        #resultado{
+            background-color: #3E3758;
+            width: 30vh;
+            height: 9vh;
+        }
+        .head{
+            display: flex;
+            gap: 10px;
+            margin: 3vh;
+            margin-top: 7vh;
+        }
+        .numeros{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px;
+            
+            
+        }
+        .linhas{
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        
+            <div class="main">
+                <div class="head">
+                    <button class="botao destaque"> <img class="config" src="https://s3-alpha-sig.figma.com/img/52bd/c66b/5f7beb6b3dae143fedeaa24be587f066?Expires=1685318400&Signature=eUb2SQgleZa5T0vLdd5kyuiVYytrraD4mhRIZmZuz-UfAOjEl5~mHjzslroaIMB-Rob8rU95cnkpYa6na-73AFq7oPSDZ4y47LmAVHcbURRZjFDaaFVGyqF~w0LlotFrV1OnxuQFVn-~YRzT0fiyxGcfAY6C1DY1r1imK08KGZ6TnBxZTthKrWmT6DNFAHB8nGJJ~FszjChLZcn6-0u~7fGB3Wr7GDM0TlaPUcKs~cGsyeZGe5zlr5HjgrNoHWT6h1KtLss7UvUEs4JCtrBx28pB3VpPwf7Fr9QIpPUQ~7s4iWMqr~LHQdmd~EB8KtIwuMiocbpiGSIvB~Z1WtIvTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt=""></button>
+                    <p id="resultado" class="botao"></p>
+                </div>
+                
+                <table class="numeros">
+                    <tr class="linhas" >
+                        <td><button class="botao">9</button></td>
+                        <td><button class="botao">8</button></td>
+                        <td><button class="botao">7</button></td>
+                        <td><button class="botao">÷</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="botao">6</button></td>
+                        <td><button class="botao">5</button></td>
+                        <td><button class="botao">4</button></td>
+                        <td><button class="botao">+</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="botao">3</button></td>
+                        <td><button class="botao">2</button></td>
+                        <td><button class="botao">1</button></td>
+                        <td><button class="botao">-</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="botao destaque">AC</button></td>
+                        <td><button class="botao">0</button></td>
+                        <td><button class="botao destaque">=</button></td>
+                        <td><button class="botao">X</button></td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+        
+    </body>
