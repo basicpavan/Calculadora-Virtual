@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+.fundo {
+    background-color: #686087;
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    top: 20vh;
+    left: 37%;
+    position: relative;
+    background-color: #3E3758;
+    width: 300px;
+    height: 381px;
+    border-radius: 30px;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2vh;
+    gap: 7vh;
+}
+
+.problemas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 90%;
+    height: 26vh;
+    margin-left: 2vh;
+    border: 3px solid #B3ADCB;
+    border-radius: 10px;
+    background-color: transparent;
+    
+
+}
+
+.polygon {
+    width: 19.63px;
+    height: 17px;
+    background: #B3ADCB;
+    border-radius: 1.41667px;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.st,
+.dados-do-app {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B3ADCB;
+    height: 10%;
+    width: 80%;
+    font-size: x-large;
+    background: #3E3758;
+    border: 3px solid #B3ADCB;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5vh;
+    text-decoration: none;
+}
+.type-here{
+    background-color: transparent;
+    border: transparent;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B3ADCB;
+}
+.img-support{
+    display: flex;
+    margin-top: 23vh;
+    margin-left: 14vh;
+}
+
+.voltar-img {
+    width: 7vh;
+    height: 7vh;
+}
+
+.title {
+    font-family: 'Chakra Petch';
+    color: #B3ADCB;
+}

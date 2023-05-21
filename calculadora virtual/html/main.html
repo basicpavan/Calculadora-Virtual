@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="../style/main.css">
+    
+</head>
+<body>
+    <div class="fundo">
+        
+            <div class="main">
+                <div class="head">
+                    <a href="../html/config.html" class="botao destaque"> <img class="config" src="https://s3-alpha-sig.figma.com/img/52bd/c66b/5f7beb6b3dae143fedeaa24be587f066?Expires=1685318400&Signature=eUb2SQgleZa5T0vLdd5kyuiVYytrraD4mhRIZmZuz-UfAOjEl5~mHjzslroaIMB-Rob8rU95cnkpYa6na-73AFq7oPSDZ4y47LmAVHcbURRZjFDaaFVGyqF~w0LlotFrV1OnxuQFVn-~YRzT0fiyxGcfAY6C1DY1r1imK08KGZ6TnBxZTthKrWmT6DNFAHB8nGJJ~FszjChLZcn6-0u~7fGB3Wr7GDM0TlaPUcKs~cGsyeZGe5zlr5HjgrNoHWT6h1KtLss7UvUEs4JCtrBx28pB3VpPwf7Fr9QIpPUQ~7s4iWMqr~LHQdmd~EB8KtIwuMiocbpiGSIvB~Z1WtIvTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="">
+                    </a>
+                    <p id="resultado" class="botao"></p>
+                </div>
+                
+                
+                <table class="numeros">
+                    <tr class="linhas" >
+                        <td><button class="botao" onclick="insert('9')">9</button></td>
+                        <td><button class="botao" onclick="insert('8')">8</button></td>
+                        <td><button class="botao" onclick="insert('7')">7</button></td>
+                        <td><button class="botao" onclick="insert('/')">÷</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="botao" onclick="insert('6')">6</button></td>
+                        <td><button class="botao" onclick="insert('5')">5</button></td>
+                        <td><button class="botao" onclick="insert('4')">4</button></td>
+                        <td><button class="botao" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="botao" onclick="insert('3')">3</button></td>
+                        <td><button class="botao" onclick="insert('2')">2</button></td>
+                        <td><button class="botao" onclick="insert('1')">1</button></td>
+                        <td><button class="botao" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="botao destaque font-menor" onclick="clean()">AC</button></td>
+                        <td><button class="botao" onclick="insert('0')">0</button></td>
+                        <td><button class="botao destaque" onclick="calcular()">=</button></td>
+                        <td><button class="botao esticado" onclick="insert('*')">*</button></td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+
+
+        
+    </body>
+ 
+    
+    </html>

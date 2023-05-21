@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        .fundo{
+            background-color: #686087;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+        
+        .main{
+            display: flex;
+            flex-direction: column;
+            top: 20vh;
+            left: 37%;
+            position: absolute;
+            background-color: #3E3758;
+            width: 300px;
+            height: 381px;
+            border-radius: 30px;
+        }
+        .config{
+            height: 8vh;
+            width: 8vh;
+        }
+        .botao{
+            box-sizing: border-box;
+            color: #B3ADCB;
+            height: 9vh;
+            width: 60px;
+            font-size: x-large;
+            background: #3E3758;
+            border: 3px solid #B3ADCB;
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 40px;
+            box-shadow: 4px 4px 0px #221E1E;
+            border-radius: 10px;
+            margin-top: 4px;
+        }
+        #resultado{
+            background-color: #3E3758;
+            width: 30vh;
+            height: 9vh;
+        }
+        .head{
+            display: flex;
+            gap: 10px;
+            margin: 3vh;
+            margin-top: 4vh;
+        }
+        .numeros{
+
+            margin-left: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px;
+            
+            
+        }
+        .linhas{
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 10px;
+        }
+        .destaque{
+            background-color: #FCFF6B;
+            color: #2B2640;
+            border-color: #2B2640;
+        }
+        .font-menor{
+            font-size: xx-large;
+        }
