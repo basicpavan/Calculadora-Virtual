@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0%;
+
+}
+
+:root .light-mode {
+    --main-bg: #B3ADCB;
+    --full-bg: #3E3758;
+    --color: #3E3758;
+}
+
+:root .dark-mode {
+    --main-bg: #3E3758;
+    --full-bg: #686087;
+    --color: #B3ADCB;
+}
+
+.fundo {
+    height: 100vh;
+    background-color: var(--full-bg);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 20vh;
+    left: 37%;
+    position: absolute;
+    background-color: var(--main-bg);
+    width: 300px;
+    height: 381px;
+    border-radius: 30px;
+    font-family: 'Chakra Petch';
+    color: var(--color);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+
+.voltar-img {
+    width: 7vh;
+    height: 7vh;
+    transform: rotate(-180deg);
+}
+
+.stilos {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 8px;
+    border: 3px solid #B3ADCB;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.tema,
+.som {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.support {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B3ADCB;
+    height: 10%;
+    width: 80%;
+    font-size: x-large;
+    border: 3px solid #B3ADCB;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+input[type="checkbox"] {
+    width: 26px;
+    height: 15px;
+    appearance: none;
+    background: #E2E2E2;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+input:checked[type="checkbox"] {
+    background-color: #2B2640;
+    transition: 0.5s;
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #2B2640;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 0px, 4px, 8px, 1px rgba(0, 0, 0, 0, 25);
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 11px;
+    transition: 0.5s;
+    background-color: #E2E2E2;
+}
